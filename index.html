@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         
+    <link rel="stylesheet" href="style.css">
 
+<body>
+    <!--header-->
+   <header class="header">    
+  <h1 class="logo"> <span>ANJ</span>ANA</h1>
+  <nav class="navbar" >
+    <ul id="menulist">
+      <li><a href="#Home">Home</a>
+      </li>
+      <li><a href="#aboutme">About</a></li>
+
+      <li><a href="#skill">Skills</a>
+     </li>
+       <li>
+        <a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+  </nav>
+
+  </header>
+          
+  
+<section class="home" id="Home">
+    <div class="home-content">
+      <h1>Hi! <br>Its <span>Anjana</span></h1>
+      <h3>Front end developer</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam veniam quisquam corporis. Reiciendis, odit?</p>
+      <h2><a href="#" class="btn">
+        Hire me</a></h2>
+      </div>
+
+      <div class="home-img">
+        <img  style="width: 250px;" src="images/hero-image.png" alt="avatar img"> 
+      </div>
+  </section> 
+
+
+  <!-- about us -->
+    <section class="container" id="aboutme">
+      <h1 about-title>about</h1>
+
+      <div class="about-content">
+        <img src="images/about img.png" alt="computer img">
+
+        <div class="item1">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias quidem veritatis recusandae atque aperiam, laborum minus expedita aspernatur, magni asperiores esse quas adipisci dolore?</p>
+
+        <h2>Education</h2>
+        <span>2018-2021</span>
+        <h3>Bachelor of Enginnering</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>75%</p>
+
+        <span>2018-2021</span>
+        <h3>Bachelor of Enginnering</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>75%</p>
+
+        <span>2018-2021</span>
+        <h3>Bachelor of Enginnering</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>75%</p>
+
+
+        </div>
+      </div>
+    </section>   
+
+  <!-- skills -->
+
+  <section class="skills" id="skill">
+    <h1>skills</h1>
+  <div class="content">
+      <div class="center">
+        <div class="line">
+          <div class="info">
+          <span>html</span>
+          <span>90%</span>
+          </div>
+        </div>
+        <div class="bars html"></div>
+        <div class="line">
+          <div class="info">
+          <span>css</span>
+          <span>80%</span>
+          </div>
+        </div>
+        <div class="bars css"></div>
+        <div class="line">
+          <div class="info">
+          <span>javascript</span>
+          <span>75%</span>
+          </div>
+        </div>
+        <div class="bars javascript"></div>
+        <div class="line">
+          <div class="info">
+          <span>bootstrap</span>
+          <span>80%</span>
+          </div>
+        </div>
+        <div class="bars bootstrap"></div>
+        <div class="line">
+          <div class="info">
+          <span>react</span>
+          <span>70%</span>
+          </div>
+        </div>
+        <div class="bars react"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- projects -->
+  <section class="project" id="project">
+    <h1>my projects</h1>
+    <div class="proj">
+      <div class="projects">
+        <img src="images/pro1.jpg" alt="project 1" />
+        <h3>profile portfolio</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iure?</p>
+      </div>
+      <div class="projects">
+        <img src="images/pro2.jpg" alt="project 1" />
+        <h3>E-commerce</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+      </div>
+      <div class="projects">
+        <img src="images/pro3.jpg" alt="project 1" />
+        <h3>cofee blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eos.
+        </p>
+      </div>
+    </div>
+    
+
+  </section>
+
+
+<!-- contact me -->
+<section class="contact" id="contact">
+   <h1>contact</h1>
+
+   <div class="texts">
+     <form action="#" id="text-content">
+      <input type="text" name="fname" class="field" id="fname" placeholder="your name" required>
+      <br>
+      <input type="email" name="mail" id="mail" placeholder="your email">
+      <br>
+      <input type="text" name="subject" id="subject" placeholder="subject">
+      <br>
+
+      <textarea name="text" id="message" cols="30" rows="5"    
+      placeholder="message.." ></textarea>
+      <div class="button">
+        <button class="butn" type="button">send message</button>
+      </div>
+ </form>
+   </div>
+</section> 
+<br>
+
+<footer>
+  <div class="footercontainer">
+    <div class="socialicons">
+      <a href=""><i class="fa-brands fa-facebook " style="color: #000007;"></i></a>
+      <a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></i></a>
+      <a href=""><i class="fa-brands fa-codepen" style="color: #00030c;"></i></a>
+      <a href=""><i class="fa-brands fa-github" style="color: rgb(7, 0, 0);"></i></a>
+    </div>
+
+    <span class="foot">copyright@|Designed by Anjana</span>
+  </div>
+</footer>
+
+
+ <script>
+  let menulist = 
+  document.getElementById("menulist")
+  menulist.style.maxHeight="0px";
+  function toggleMenu(){
+    if(menulist.style.maxHeight=="0px")
+      {
+      menulist.style.maxHeight="300px";
+       }
+    else{
+      menulist.style.maxHeight="0px";
+    }
+  }
+</script>
+
+
+</body>
+</html>
